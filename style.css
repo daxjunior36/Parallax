@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;900&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,h2,h3{
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  text-shadow: 0 5px 10px #000;
+  text-align: center;
+
+ }
+
+
+h1{
+  font-size: 3rem;
+}
+
+
+h2{
+  font-size: 2rem;
+}
+
+
+h3{
+    font-size: 2rem;
+}
+
+
+P{
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+  .ParaImage{
+    width:100%;
+    height:400px;
+    background-attachment:fixed;
+    background-size:100% 100%;
+    padding:100px 0px;
+  
+  }
+
+
+.bg1{
+  background-image:url(img/paris-1836415_1920.jpg);
+}
+
+
+.bg2{
+  background-image:url(img/big-ben-2393098_1920.jpg);
+}
+
+.bg3 {
+  background-image: url(img/brooklyn-bridge-1791001_1920.jpg);
+}
+
+.bg4 {
+  background-image: url(img/canal-114290_1920.jpg);
+}
+
+.ParaContent{
+  background-color:#030303;
+  padding:50px 0px;
+}
+
+
+.ParaVideo {
+
+  width: 100vw;
+  height:300px;
+  padding:50px 0px;
+}
+
+
+
+.ParaVideo video{
+  width: 100vw;
+  min-height:100%;
+  position:fixed;
+  top:0;
+  z-index:-999;
+}
+
+
+.ParaVideo2 {
+
+  width: 100vw;
+
+}
+
+.ParaVideo2 video{
+  width: 100vw;
+}
